@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+*{
+	font-family: 'Comic Neue', cursive;
+}
+
+.form-control{
+	font-size: large;
+}
+
+#logo{
+    font-family: 'Silkscreen', cursive;
+    font-size: 20px;
+}
+
+.form-center{
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.form-comment{
+	max-width: 500px;
+	float: left;
+}
+
+i{
+	font-size: 23px;
+}
+
+.welcome{
+	font-size: 40px;
+}
+
+.btn-del{
+	background-color: transparent;
+	border: none;
+	color: gray;
+}
+
+#message{
+	display: none;
+	color: crimson;
+}
+
+.pointer{
+	cursor: pointer;
+}
