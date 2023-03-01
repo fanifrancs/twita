@@ -2,7 +2,7 @@
     <div class="container mt-2">
         <p class="container">Hello <%= currentUser.username %>, here is your dashboard and below are the tweets you have posted so far. Click the delete button to delete any tweet you wish. Happy tweeting!</p>
         <% user.tweets.slice().reverse().forEach((tweet) => { %>
-            <div class="mt-2 p-2 bg-dark text-white rounded">
+            <div class="mt-2 p-2 bg-dark text-white rounded border">
                 <h5>
                     <span class="m-2 badge bg-light text-dark"><%= tweet.author.username %>, <%= tweet.created.toLocaleString() %></span>
                 </h5>

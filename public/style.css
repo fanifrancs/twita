@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
 
 *{
-	font-family: 'Comic Neue', cursive;
+	font-family: 'Nunito', sans-serif;
 }
 
 .form-control{
@@ -10,7 +10,7 @@
 }
 
 #logo{
-    font-family: 'Silkscreen', cursive;
+    font-family: 'Tilt Warp', cursive;
     font-size: 20px;
 }
 

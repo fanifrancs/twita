@@ -1,7 +1,7 @@
 <%- include ('./partials/header') %> 
     <div class="container mt-2">
       <% tweets.slice().reverse().forEach((tweet) => { %>
-        <div class="mt-2 p-2 bg-dark text-white rounded">
+        <div class="mt-2 p-2 bg-dark text-white rounded border">
           <h5>
             <span class="badge bg-light text-dark"><%= tweet.author.username %>, <%= tweet.created.toLocaleString() %></span>
           </h5>
