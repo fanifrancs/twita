@@ -1,11 +1,11 @@
 <%- include ('./partials/header') %> 
     <div class="container mt-2">
       <% tweets.slice().reverse().forEach((tweet) => { %>
-        <div class="mt-2 p-2 bg-dark text-white rounded border">
+        <div class="mt-2 p-2 bg-dark text-white rounded border pointer">
           <h5>
             <span class="badge bg-light text-dark"><%= tweet.author.username %>, <%= tweet.created.toLocaleString() %></span>
           </h5>
-          <p class="m-2 pointer" onclick="location.replace('tweets/<%= tweet._id %>')">
+          <p class="m-2" onclick="location.replace('tweets/<%= tweet._id %>')">
             <% if (tweet.content.length > 100) { %>
               <%= tweet.content.substring(0, 100) %>...
             <% } else { %>
