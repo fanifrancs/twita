@@ -46,3 +46,7 @@ i{
 .pointer{
 	cursor: pointer;
 }
+
+.tweet{
+	font-size: larger;
+}

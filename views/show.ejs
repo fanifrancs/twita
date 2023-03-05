@@ -1,13 +1,11 @@
 <%- include ('./partials/header') %>
     <div class="container mt-2 p-2 bg-dark text-white rounded">
-      <h5>
-        <span class="badge bg-light text-dark"><%= tweet.author.username %>, <%= tweet.created.toLocaleString() %></span>
-      </h5>
-      <p class="m-2">
+      <span class="m-2"><%= tweet.author.username %>, <%= tweet.created.toLocaleString() %></span>
+      <p class="tweet m-2">
         <%= tweet.content %>
       </p>
       <h5>
-        <span class="m-2 badge bg-light text-dark">comments</span>
+        <i class="m-2 badge bg-light text-dark">comments</i>
       </h5>
       <% tweet.comments.forEach((comment) => { %>
         <p class="container"><b><%= comment.author.username %></b> : <%= comment.comment %></p>
