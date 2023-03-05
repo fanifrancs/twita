@@ -5,7 +5,7 @@
         <%= tweet.content %>
       </p>
       <h5>
-        <i class="m-2 badge bg-light text-dark">comments</i>
+        <span class="m-2 badge bg-light text-dark">comments</span>
       </h5>
       <% tweet.comments.forEach((comment) => { %>
         <p class="container"><b><%= comment.author.username %></b> : <%= comment.comment %></p>
